@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import 'semantic-ui-css/semantic.min.css'
 
 import Banner from '../App/Banner';
+import ModalAssujetti from '../Modal/assujetti';
 
 function Home() {
   return(
@@ -21,7 +22,7 @@ function Home() {
       </div>
 
       <div id="assujetti">
-        <h2>Le preneur est il assujetti à la TVA ? </h2>
+        <h2>Le preneur est il assujetti à la TVA ? <ModalAssujetti /> </h2>
         <div className="select_container">
           <Link to='Assujetti' ><button className='select'>Oui</button></Link>
           <Link to='non_assujetti' ><button className='select'>Non</button></Link>
