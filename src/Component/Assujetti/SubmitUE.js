@@ -29,7 +29,7 @@ const SubmitUE = () => {
       <h4>La procédure :</h4>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />La prestation n'est pas imposable en France, mais dans le pays du preneur</ul>
       <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Etablissez une facture hors TVA, en portant la mention "autoliquidation" sur la facture</ul>
-      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Un déclaration d'échange de services est à effectuer dès le 1er euro facturé</ul>
+      <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)'}} />Une déclaration d'échange de services est à effectuer dès le 1er euro facturé</ul>
 
       <hr />
         <div className='categorie' >
